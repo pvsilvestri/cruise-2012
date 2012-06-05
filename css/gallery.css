@@ -1,0 +1,61 @@
+/**
+ * @file
+ * Photo Gallery CSS Helpers
+ *
+ * See http://www.lullabot.com/articles/photo-galleries-views-attach
+ *
+ */
+
+div.view-gallery-photos div.views-field-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+div.view-gallery-photos div.views-field-field-image-fid img {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+div.view-gallery-photos div.views-field-field-image-fid img:hover {
+  border: 3px solid black;
+  padding: 0px;
+}
+
+div.view-gallery-photos div.views-field-created {
+  font-size: .8em;
+  font-style: italic;
+}
+
+/**
+ * Modify these to suit your gallery's theming.
+ * You might have to adjust the class name as well.
+ *
+ * div.view-display-id-node_content_2 {
+ *   float: left;
+ *   padding-right: 10px;
+ * }
+ *
+ * div.view-display-id-node_content_2 div.view-empty {
+ *   border: 1px solid black;
+ *   font-size: 0.9em;
+ *   padding: 5px;
+ *   text-align: center;
+ *   width: 140px;
+ * }
+ */
+
+ul.links li.photo_field_gallery  {
+  float: right;
+  padding: 5px 10px;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: bold;
+}
+
+ul.links li.photo_field_gallery:hover  {
+  padding: 4px 9px;
+  border: 3px solid black;
+}
+
+/* End Photo Gallery Helpers */
+

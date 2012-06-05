@@ -1,0 +1,39 @@
+name = Cruise 2012
+description = Clinton Township Gratiot Cruise 10th Anniversary Drupal 6 Theme.  Developed By Paul Silvestri; Silvestri Consulting, LLC.  (C) 2012 All Rights Reserved.
+screenshot = screenshot.png
+engine = phptemplate
+core = "6.x"
+
+regions[header] = Header
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content_top] = Content Top
+regions[content_bottom] = Content Bottom
+regions[footer_links] = Footer Links
+
+regions[home_left] = Home Page Left Menu
+regions[home_center] = Home Page Center
+regions[home_right] = Home Page Right Menu
+
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
+
+;disabled features, uncomment to activate
+;features[] = logo
+;features[] = node_user_picture
+;features[] = comment_user_picture
+
+stylesheets[all][] = style.css
+stylesheets[all][] = css/tabs.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/ui.css
+stylesheets[all][] = css/main.css
+;stylesheets[all][] = css/link-icons.css
+;stylesheets[all][] = css/gallery.css
+stylesheets[print][] = css/print.css
+stylesheets[all][] = css/custom.css

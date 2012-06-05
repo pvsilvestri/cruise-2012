@@ -1,0 +1,538 @@
+/**
+ * @file
+ * General Styles
+ *
+ * Sub-themes will probably want to override this file.
+ * If used as a starter, perform all styling changes in this file.
+ */
+
+body {
+  background: #fff;
+  color: #000;
+  font-size: 100%;
+}
+
+body, caption, th, td, legend, fieldset {
+  font-family: Lucida Grande, Lucida Sans Unicode, clean, sans-serif;
+}
+
+input, textarea, select, option {
+  font-family: Arial, Helvetica, clean, sans-serif;
+}
+
+#page {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+#header {
+  border-bottom: 10px solid #1E326F;
+  margin: 0;
+  padding: 1em 4px 0.5em;
+}
+
+h1#site-name {
+  float: right;
+  font-family: Helvetica Neue, Helvetica, Lucida Grande, Arial, sans-serif;
+  font-size: 2.5em;
+  font-style: italic;
+  padding: 0 0 10px;
+}
+
+#site-name a {
+  color: #1E326F;
+  text-decoration: none;
+}
+
+a.hfcc-home {
+  background: url(../images/hfcc-logo-blue.png) no-repeat;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding: 45px 0 0;
+  width: 150px;
+}
+
+#navigation {
+  border-bottom: 1px solid #444;
+  border-top: 1px solid #444;
+  margin: 0.5em 0 0;
+}
+
+#search-theme-form {
+  float: right;
+}
+
+#search-theme-form form {
+  margin: 0 0 1em 1em;
+}
+
+#search-theme-form label {
+  display: none;
+}
+
+#search-theme-form .form-submit {
+  background: transparent url(../images/search.png) no-repeat right top;
+  border: none;
+  color: #ccc;
+  font-size: 0.85em;
+  height: 15px;
+  margin: 0;
+  padding: 0 17px 0 0;
+  text-transform: lowercase;
+}
+
+#search-theme-form .form-item input:focus {
+  background: #ffd;
+}
+
+ul.primary-links {
+  float: left;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0.8em 0;
+}
+
+ul.primary-links li {
+}
+
+ul.primary-links a {
+  background: #F3F3F3;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #777;
+  padding: 0.4em 0.5em;
+  text-decoration: none;
+}
+
+ul.primary-links a:hover {
+  background: #D5E2EB;
+  color: #1E326F;
+}
+
+ul.secondary-links {
+  float: right;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0.8em 0;
+}
+
+ul.secondary-links li {
+}
+
+ul.secondary-links a {
+  text-decoration: none;
+}
+
+ul.secondary-links a:hover {
+}
+
+#main {
+}
+
+#content {
+}
+
+#content-inner {
+  padding: 0 4px 1em;
+}
+
+.sidebar-left #content-inner {
+  padding: 0 4px 1em;
+}
+
+.sidebar-right #content-inner {
+  padding: 0 4px 1em;
+}
+
+.two-sidebars #content-inner {
+  padding: 0 4px 1em;
+}
+
+#content-inner h2.title {
+  font-size: 2em;
+}
+
+#fatfooter {
+  background: #1E326F url(../images/blue-footer-extended.gif) repeat-x;
+  font-size: 0.9em;
+  min-height: 150px;
+}
+
+#fatfooter .block {
+  float: left;
+  width: 24%;
+}
+
+#fatfooter .block-inner {
+  padding: 10px;
+}
+
+#fatfooter h2.title {
+  color: orange;
+}
+
+#fatfooter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#fatfooter a:hover {
+  text-decoration: underline;
+}
+
+#fatfooter .block ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 1em;
+}
+
+#fatfooter ul.menu li,
+#fatfooter li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+}
+
+#footer {
+  color: #777;
+  font-size: 8pt;
+  padding: 1em 0 0;
+  text-align: center;
+}
+
+#footer a {
+  color: #777;
+}
+
+#block-menu-menu-footer-links ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#block-menu-menu-footer-links ul li {
+  display: inline;
+  margin: 0;
+  padding: 0 2px;
+}
+
+#block-menu-menu-footer-links a {
+  color: #444;
+  font-size: 9px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/**
+ * Theme sidebars.
+ */
+
+#sidebar-left {
+}
+
+#sidebar-left .block-inner {
+  margin: 0.5em 0;
+  padding: 0 10px 1em 0;
+}
+
+#sidebar-left h2.title {
+/* background: #C9E6AC;
+ * color: #395918;
+ * font-size: 14px;
+ * line-height: normal;
+ * margin: 0 -8px 2px -5px;
+ * padding: 4px 4px 4px 6px;
+ */
+}
+
+#sidebar-left  a {
+/*  color: #395918; */
+}
+
+#sidebar-right {
+}
+
+#sidebar-right .block-inner {
+  font-size: 12px;
+  line-height: 1.12em;
+  margin: 0.5em 0;
+  padding: 0 0 1em 2px;
+}
+
+#sidebar-right h2.title {
+/*  background: #C9E6AC;
+ * color: #395918;
+ * font-size: 1.1em;
+ * line-height: normal;
+ * margin: 0 -2px 2px;
+ * padding: 4px 4px 4px 6px;
+ */
+}
+
+.sidebar .block-menu {
+  font-size: 0.9em;
+}
+
+.sidebar .block-menu ul {
+  border-bottom: 1px solid #848484;
+  border-left: 1px solid #848484;
+  border-right: 1px solid #848484;
+  padding: 0;
+}
+
+.sidebar .block-menu ul ul {
+  border: none;
+  padding: 0;
+}
+
+.sidebar .block-menu li.leaf,
+.sidebar .block-menu li.collapsed,
+.sidebar .block-menu li.expanded {
+  background: #D7E5EF url("../images/portal-nav-bg-blue.png") repeat-x;
+  border-top: 1px solid #848484;
+  color: #D6E4ED;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .block-menu li.expanded {
+  padding: 0.2em 0 0;
+}
+
+.sidebar .block-menu ul ul li.leaf {
+  background: #fff;
+}
+
+.sidebar .block-menu .menu a {
+  color: #1e326f;
+  display: block;
+  padding: 0.2em 0.5em;
+}
+
+.sidebar .block-menu .menu a:hover,
+.sidebar .block-menu ul.menu ul.menu a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+.sidebar .block-menu ul.menu ul.menu a {
+  color: #2512D4;
+  display: block;
+  font-weight: normal;
+  padding: 0.2em 0.5em 0.1em 1em;
+}
+
+/**
+ * Headings
+ */
+
+h1 {
+  font-size: 2em;
+  line-height: 1.3em;
+  padding: 0 0 0.5em;
+}
+
+h2 {
+  color: #444;
+  font-size: 1.3em;
+  line-height: normal;
+  padding: 0.5em 0;
+}
+
+h3 {
+  color: #1E326F;
+  font-size: 1.2em;
+  line-height: normal;
+  padding: 1em 0 0.4em;
+}
+
+h4 {
+  color: #444;
+  font-size: 1.1em;
+  line-height: normal;
+  padding: 1em 0 0.25em;
+}
+
+/* When declaring Link states, remember: LoVe HA : Link | Hover | Visited | Active */
+
+a:link, a:visited {
+  color: #2513D4;
+  text-decoration:none;
+}
+
+a:hover, a:active {
+  color: #1E326F;
+  text-decoration:underline;
+}
+
+/**
+ * Carry-over from DWS2010 theme.
+ * I am not sure where this was used, but need to use .floatright
+ * from styless.css from now on.
+ *
+ * .float-right {
+ *   float: right;
+ * }
+ */
+
+/**
+ * Front Page Theming.
+ */
+
+.block-yayb .block-inner {
+  margin: 4px 4px 0;
+}
+
+/**
+ * @see: http://www.hfcc.edu/admissions/resources/images/bullet_callout.gif
+ */
+
+.options-wrapper {
+  margin: 5px 0 0;
+  min-width: 756px;
+  padding: 10px 0 20px;
+}
+
+.options-callout {
+  float: left;
+  width: 33.3%;
+}
+
+.options-callout-inner {
+  margin: 0 3px 10px;
+  padding: 5px 7px;
+}
+
+.options-callout h3 {
+  color: #777;
+  font-family: Helvetica Neue, Helvetica, Lucida Grande, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 0.5em;
+  padding: 5px 7px;
+  text-align: center;
+}
+
+.options-callout h3 em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.options-callout h4 {
+  color: #777;
+  font-family: Helvetica Neue, Helvetica, Lucida Grande, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 0.5em;
+  padding: 0;
+}
+
+.options-callout ul.menu {
+  padding: 0;
+}
+
+.options-callout ul.menu li {
+  color: #555;
+  font-weight: bold;
+  list-style-image: url(../images/green-arrow.jpg);
+  margin: 0 0 0 18px;
+  padding: 0 0 10px 3px;
+}
+
+.options-callout li a {
+  color: #555;
+}
+
+.options-callout li.learnmore {
+  padding: 20px 0 10px;
+}
+
+.options-callout li.learnmore a {
+  color: #EC8000;
+}
+
+.options-callout p.info {
+  margin-left: 12px;
+}
+
+/* probably site-specific, but from where? */
+
+div.field-field-page-image {
+  float: right;
+  padding: 0 0 0.5em 1em;
+}
+
+/* Edit links for views */
+
+.edit-link {
+  font-size: 10px;
+  line-height: 1em;
+  padding-left: 0.5em;
+  text-transform: uppercase;
+}
+
+.edit-link a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.edit-link a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+/**
+ * Quick-and-dirty yellow box.
+ * (Hint: Use on paragraphs)
+ */
+
+.yellowbox {
+  background: #FF8;
+  border: 1px solid #F88;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+/**
+ * Format links at the bottom of node displays.
+ */
+
+#content-area .node .links {
+  font-size: 10px; 
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#content-area .node .links li {
+  padding: 0 0.5em 0 0;
+}
+
+#content-area .node .links a {
+  background: #ffa;
+  border-radius: 3px;
+    -moz-border-radius: 3px;
+  color: #777;
+  padding: 1px 4px;
+  text-decoration: none;
+}
+
+#content-area .node .links a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+/**
+ * Hide deeply-nested views admin links.
+ */
+.node-teaser div.view div.views-admin-links {
+  display: none;
+}
+

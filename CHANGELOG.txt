@@ -1,0 +1,42 @@
+
+HFCC Base Theme 6.x-1.x, xxxx-xx-xx
+-----------------------------------
+
+
+HFCC Base Theme 6.x-1.3, 2011-03-16
+-----------------------------------
+by micahw156: General Cleanup for submission to drupal.org.
+
+
+HFCC Base Theme 6.x-1.2, 2011-01-05
+-----------------------------------
+Fix error in phptemplate_username() introduced in previous version.
+
+
+HFCC Base Theme 6.x-1.1, 2011-01-05
+-----------------------------------
+Add maintenance pages.
+Better verification that user full name is set.
+Fix line-height on h2 h3 h4 elements.
+Clean up margin syntax on h1 element.
+Move $closure outside of div#page.
+More code cleanup to page.tpl.php and template.php files.
+Add sup formatting from helpdesk theme.
+Add ul.tips exception to code formatting.
+Tweak caption class in style.css
+Add blockquote to ui.css and reorder stylesheets in .info file.
+Add new link-icons.css to hfccbase.info file.
+
+
+HFCC Base Theme 6.x-1.0, 2010-12-16
+-----------------------------------
+Added README.txt and CHANGELOG.txt files.
+Change <!DOCTYPE> in page.tpl.php file and other cleanup.
+General cleanup of template.php
+Implementation of $themed_primary_links and $themed_secondary_links.
+Cleanup of layout.css, main.css and ui.css.
+Fix uninitialized variable bug in phptemplate_username() function.
+Move link icons from ui.css to link-icons.css to make them more optional.
+Cleanup of style.css:
+  - Remove YUI CSS Reset which is commented out by default and not used.
+  - Remove .clearfix class. We now use .clear-block from Drupal Core.

@@ -1,0 +1,66 @@
+/**
+ * @file
+ * Style.css is the first custom stylesheet called in the CSS order
+ * (for the remaining stylesheets, see the .info file).
+ * Please place commonly used CSS snippets here. Otherwise, place
+ * design specific styles in css/main.css
+ */
+
+/* Simple Layout reset */
+
+* { margin: 0; padding: 0; }
+
+/* clear classes for content */
+
+.clearleft { clear: left; }
+
+.clearright { clear: right; }
+
+.clearboth { clear: both; }
+
+/* Float classes for images */
+
+.floatleft { float: left; margin: 0 10px 5px 0 !important; }
+
+.floatright { float: right; margin: 0 0 5px 10px !important; }
+
+.caption { color: #444; font-size: 11px; font-weight: bold; }
+
+/* "Skip to Main Content" link
+*
+* This link useful for both visually impaired people and those with mobility impairments
+* who cannot use a mouse.
+*/
+
+#skip-nav { display: none; }
+
+#skip-nav a, #skip-nav a:hover, #skip-nav a:visited {
+  position: absolute;
+  left: 0;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+#skip-nav a:active, #skip-nav a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+/** Prevent overflowing content **/
+
+#header,
+#content,
+#sidebar-left,
+#sidebar-right,
+#footer {
+  overflow: visible;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+/* bug fix with views 2 edit links */
+
+div.view div.views-admin-links {
+	width:auto;
+}

@@ -1,0 +1,112 @@
+#page {
+  width: 980px;
+}
+
+#header {
+  background: url("/sites/all/themes/cruise2012/images/header.jpg") no-repeat;
+  border-bottom: 0;
+  height: 350px;
+  padding: 0;
+}
+
+a#header {
+  background: url("/sites/all/themes/cruise2012/images/header.jpg") no-repeat;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 350px;
+}
+
+#home-inner {
+  background: url("/sites/all/themes/cruise2012/images/home_content_bg.jpg") no-repeat;
+  height: 500px;
+}
+
+#home-left {
+  float: left;
+  height: 350px;
+  margin-left: 15px;
+  margin-top: 83px;
+  width: 200px;
+}
+
+#home-center {
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+  height: 350px;
+  margin-top: 83px;
+  width: 522px;
+}
+
+#home-right {
+  float: left;
+  height: 350px;
+  margin-left: -2px;
+  margin-top: 83px;
+  width: 200px;
+}
+
+#block-nice_menus-1 ul.nice-menu, ul.nice-menu ul {
+  border-top: none;
+  padding-top: 10px;
+}
+
+#block-nice_menus-1 ul.nice-menu li {
+  background: url("/sites/all/themes/cruise2012/images/menu.jpg") no-repeat;
+  border: none;
+  height: 60px;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  width: 160px;
+}
+
+#block-nice_menus-1 ul.nice-menu a {
+  color: white;
+  font-size: 14pt;
+  padding-top: 7px;
+  text-align: center;
+}
+
+#block-nice_menus-2 ul.nice-menu, ul.nice-menu ul {
+  border-top: none;
+  padding-top: 10px;
+}
+
+#block-nice_menus-2 ul.nice-menu li {
+  background: url("/sites/all/themes/cruise2012/images/menu.jpg") no-repeat;
+  border: none;
+  height: 60px;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  width: 160px;
+}
+
+#block-nice_menus-2 ul.nice-menu a {
+  color: white;
+  font-size: 14pt;
+  padding-top: 7px;
+  text-align: center;
+}
+
+#block-nice_menus-3 ul.nice-menu, ul.nice-menu ul {
+  border: none;
+}
+
+#block-nice_menus-3 ul.nice-menu li {
+  background: url("/sites/all/themes/cruise2012/images/menu.jpg") no-repeat;
+  height: 62px;
+  margin-bottom: 5px;
+}
+
+#block-nice_menus-3 ul.nice-menu a {
+  color: white;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#block-cck_blocks-field_page_photo {
+}
+
+#footer p {
+  font-size: 13pt;
+}

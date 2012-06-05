@@ -1,0 +1,40 @@
+/**
+ * Add icons to links
+ *
+ * http://www.hunlock.com/blogs/Attach_icons_to_anything_with_CSS
+ * http://www.askthecssguy.com/2006/12/showing_hyperlink_cues_with_cs_1.html
+ */
+
+a[href $='.pdf'] {
+  background: transparent url(../images/icons/icon_pdf.gif) no-repeat center right;
+  padding-right: 18px;
+}
+
+a[href $='.doc'] {
+  background: transparent url(../images/icons/icon_doc.gif) no-repeat center right;
+  padding-right: 18px;
+}
+
+a[href $='.xls'] {
+  background: transparent url(../images/icons/icon_xls.gif) no-repeat center right;
+  padding-right: 18px;
+}
+
+a[href ^="mailto:"] {
+   background: transparent url(../images/icons/icon_mail.gif) no-repeat center right;
+   padding-right: 20px;
+}
+
+a.external {
+   background: transparent url(../images/icons/icon_external.gif) no-repeat center right;
+   padding-right: 20px;
+}
+
+/* Undo for filefield, which already displays icons for file types. */
+
+div.filefield-file a[href $='.pdf'],
+div.filefield-file a[href $='.doc'],
+div.filefield-file a[href $='.xls'] {
+  background: none;
+  padding-right: none;
+}

@@ -1,0 +1,167 @@
+/**
+ * @file
+ * Define General User Interface Elements.
+ *
+ * These should probably stay relatively standard. They can be overwritten in main.css.
+ */
+
+/* General HTML Elements */
+
+p {
+  margin: 0 0 1em;
+}
+
+/* List Styles  */
+
+ul, ol {
+  margin: 0 0 1em;
+  padding-left: 2em;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin: 0;
+  padding-left: 1em;
+}
+
+ul          { list-style-type: disc; }
+ul ul       { list-style-type: circle; margin: 0; }
+ul ul ul    { list-style-type: square; margin: 0; }
+ul ul ul ul { list-style-type: circle; margin: 0; }
+ol          { list-style-type: decimal; }
+ol ol       { list-style-type: lower-alpha; margin: 0; }
+ol ol ol    { list-style-type: decimal; margin: 0; }
+
+ol.upper-alpha {list-style-type: upper-alpha; }
+ol.lower-alpha {list-style-type: lower-alpha; }
+ol.upper-roman {list-style-type: upper-roman; }
+ol.lower-roman {list-style-type: lower-roman; }
+ol.decimal {list-style-type: decimal; }
+
+dl {}
+
+dt {
+  margin: 0 0 0.5em;
+}
+
+dd {
+  margin: 0 0 0.5em 1em;
+}
+
+dl.node-type-list dt {
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 4px solid #cdf;
+  margin-left: 2em;
+  padding-left: 0.5em;
+}
+
+sup {
+  font-size: 0.6em;
+}
+
+/* Table Styles  */
+
+table {
+  width: 99%;
+}
+tr.even td, tr.odd td {
+  padding: 10px 5px;
+}
+tr.even {
+  background-color: #F9F9F9;
+}
+tr.odd {
+  background-color: #fff;
+}
+
+table.views-table caption {
+  color: #1E326F;
+  font-size: 1.15em;
+  font-weight: bold;
+  margin: 2em 0 0.4em;
+  text-align: left;
+}
+
+/* Abbreviation */
+
+abbr {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  white-space: nowrap;
+}
+
+/* Date-based "abbreviations" show computer-friendly timestamps which are not human-friendly. */
+
+abbr.created {
+  border: none;
+  cursor: auto;
+  white-space: normal;
+}
+
+/* Code */
+
+pre, code {
+  background-color: #efefef;
+  display: block;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #aaa;
+  font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+
+/* Undo previous formatting for editing tips. */
+
+ul.tips code {
+  background: inherit;
+  border: none;
+  display: inline;
+  margin: inherit;
+  padding: inherit;
+}
+
+
+/* User Interface Styles */
+
+.resizable-textarea textarea {
+  font-size:14px!important;
+}
+
+.messages {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #04a107;
+  color: #04a107;
+  background-color: #edffed;
+}
+
+form {
+  margin:10px 0;
+}
+
+input.form-submit {
+  padding: 2px 5px;
+}
+
+/* Rollover edit links for blocks */
+
+div.block {
+  position: relative;
+}
+
+div.block div.edit {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 40;
+  border: 1px solid #eee;
+  padding: 0 2px;
+  font-size: 11px;
+  background-color: #fff;
+}
+
+div.block:hover div.edit {
+  display: block;
+}
