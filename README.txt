@@ -12,7 +12,7 @@ _____________________________________________________________________________
 
 Installation
 
-- Unpack the downloaded file and place the hfccbase folder in your Drupal installation under one of the following locations:
+- Unpack the downloaded file and place the cruise2012 folder in your Drupal installation under one of the following locations:
 
     * sites/all/themes
     * sites/all/custom/themes
