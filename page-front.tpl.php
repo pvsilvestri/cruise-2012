@@ -119,15 +119,17 @@
     <!-- ______________________ MAIN _______________________ -->
     <div id="main" class="clear-block">
       <div id="home-inner">
-        <div id="home-left" class="clear-block">
-          <?php echo $home_left; ?>
-        </div>
-        <div id="home-center" class="clear-block">
-          <?php echo $home_center; ?>
-        </div>
-        <div id="home-right" class="clear-block">
-          <?php echo $home_right; ?>
-        </div>                  
+        <div id="home-columns">
+          <div id="home-left" class="clear-block">
+            <?php echo $home_left; ?>
+          </div>
+          <div id="home-center" class="clear-block">
+            <?php echo $home_center; ?>
+          </div>
+          <div id="home-right" class="clear-block">
+            <?php echo $home_right; ?>
+          </div>                  
+      </div>
       </div>
     </div> <!-- /main -->
     <!-- ______________________ FOOTER _______________________ -->

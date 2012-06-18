@@ -18,8 +18,14 @@ a#header {
 }
 
 #home-inner {
-  background: url("/sites/all/themes/cruise2012/images/home_content_bg.jpg") no-repeat;
+  background: url("/sites/all/themes/cruise2012/images/home_content_bg_date.jpg") no-repeat;
   height: 500px;
+}
+
+#home-top {
+}
+
+#home-columns {
 }
 
 #home-left {

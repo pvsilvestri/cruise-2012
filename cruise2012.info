@@ -11,6 +11,7 @@ regions[content_top] = Content Top
 regions[content_bottom] = Content Bottom
 regions[footer_links] = Footer Links
 
+regions[home_top] = Home Page Top Black Area
 regions[home_left] = Home Page Left Menu
 regions[home_center] = Home Page Center
 regions[home_right] = Home Page Right Menu
